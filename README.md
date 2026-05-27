@@ -1,6 +1,6 @@
 # alphaScout 🪙
 
-An autonomous AI Agentic Risk Engine driven by Google Gemini and backed by Bright Data's premium residential proxy architecture. alphaScout bypasses modern anti-bot perimeters to extract, validate, and stream real-time competitor financial telemetry via Server-Sent Events (SSE).
+An autonomous AI Agentic Risk Engine driven by Google Gemini and backed by Bright Data's premium residential proxy architecture. Built entirely on a high-performance TypeScript ecosystem, alphaScout bypasses modern anti-bot perimeters to extract, validate, and stream real-time competitor financial telemetry via Server-Sent Events (SSE).
 
 ## 🚀 The Core Problem & Solution
 
@@ -10,7 +10,7 @@ Modern market intelligence systems are bottlenecked by stale database records an
 ### Our Solution
 **alphaScout** solves this data accessibility gap by launching a self-correcting reasoning loop powered by the **Google Gemini API**. When a discovery target is initiated, the engine dynamically adapts its scraping parameters based on real-time feedback. 
 
-By routing outbound traffic through the **Bright Data Web Unlocker** proxy framework, alphaScout seamlessly spoofs browser signatures and rotates residential IPs to bypass anti-bot perimeters silently. The extracted metrics are compiled into a strict JSON schema and pushed instantly to the client via **Server-Sent Events (SSE)**.
+By routing outbound traffic through the **Bright Data Web Unlocker** proxy framework, alphaScout seamlessly spoofs browser signatures and rotates residential IPs to bypass anti-bot perimeters silently. The extracted metrics are compiled into a strict JSON schema and pushed instantly to the frontend using a reactive **Vite + Node.js (TypeScript)** pipeline via **Server-Sent Events (SSE)**.
 
 ---
 
@@ -18,9 +18,10 @@ By routing outbound traffic through the **Bright Data Web Unlocker** proxy frame
 
 | Layer | Component Used | Mission-Critical Operational Role |
 | :--- | :--- | :--- |
+| **Frontend UI** | Vite + TypeScript | Provides a lightning-fast, reactive dashboard for data visualization. |
+| **Backend Core** | Node.js + `server.ts` | Handles API endpoints, SSE streaming orchestration, and web routing. |
 | **AI Orchestration** | Google Gemini API | Powers the recursive tool-calling and self-correcting agentic loops. |
 | **Proxy Routing** | Bright Data Web Unlocker | Bypasses advanced CAPTCHAs and enterprise WAF architectures. |
-| **Streaming Pipeline**| Flask Server-Sent Events | Pushes sub-second, persistent data payloads without client polling. |
 | **Data Integrity** | Strict JSON Schema Guard | Validates structured data inputs to completely eliminate AI hallucinations. |
 
 ---
@@ -29,7 +30,7 @@ By routing outbound traffic through the **Bright Data Web Unlocker** proxy frame
 
 In strict compliance with the **IBM Bob Hackathon** guidelines, this project heavily leveraged assistive AI engineering for optimal system compilation. 
 * All advanced token-optimization algorithms, structured JSON-schema compilers, and high-throughput proxy routing parameters were refined and debugged through iterative sessions with **IBM Bob**.
-* The complete session history, containing full task execution logs, code optimization tracks, and diagnostic benchmarks, has been natively exported and stored within the repository at: `/AI_Reports/ibm_bob_report.json`.
+* The complete session history, containing full task execution logs, code optimization tracks, and diagnostic benchmarks, has been natively exported and stored within the root directory at: `./ibm_bob_report.json` (or inside the code logs).
 
 ---
 
