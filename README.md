@@ -1,7 +1,5 @@
 # alphaScout 🪙✨
-### Core Financial Intelligence Orchestrator (Agentic Risk Engine)
-
-MinorMint is an autonomous, production-grade AI Agentic Engine designed to orchestrate live web intelligence, bypass advanced anti-bot architecture, and stream structured financial analytics in real-time. Built specifically for next-generation decentralized and programmatic financial tracking.
+### Core Financial Intelligence Orchestrator (Agentic Risk Engine)is an autonomous, production-grade AI Agentic Engine designed to orchestrate live web intelligence, bypass advanced anti-bot architecture, and stream structured financial analytics in real-time. Built specifically for next-generation decentralized and programmatic financial tracking.
 
 ---
 
@@ -23,7 +21,7 @@ MinorMint is an autonomous, production-grade AI Agentic Engine designed to orche
 ---
 
 ## 🎯 Professional Overview
-Traditional market analysis relies on stale database records and manual scraping scripts that easily break under modern anti-bot guardrails. **MinorMint** solves this by establishing a self-correcting **Autonomous Agentic Loop**. 
+Traditional market analysis relies on stale database records and manual scraping scripts that easily break under modern anti-bot guardrails. **alphaScout** solves this by establishing a self-correcting **Autonomous Agentic Loop**. 
 
 The engine dynamically spawns browsing sessions, leverages residential proxy rotation to extract raw competitive data, and processes it through a strict JSON validation pipeline. Mapped directly to high-fidelity frontend visualizations, it delivers execution-ready alpha to retail users, algorithmic guardians, and asset managers instantly.
 
