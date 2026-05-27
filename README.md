@@ -1,64 +1,40 @@
-# alphaScout 🪙✨
-### Core Financial Intelligence Orchestrator (Agentic Risk Engine)is an autonomous, production-grade AI Agentic Engine designed to orchestrate live web intelligence, bypass advanced anti-bot architecture, and stream structured financial analytics in real-time. Built specifically for next-generation decentralized and programmatic financial tracking.
+# alphaScout 🪙
+
+An autonomous AI Agentic Risk Engine driven by Google Gemini and backed by Bright Data's premium residential proxy architecture. alphaScout bypasses modern anti-bot perimeters to extract, validate, and stream real-time competitor financial telemetry via Server-Sent Events (SSE).
+
+## 🚀 The Core Problem & Solution
+
+### The Problem
+Modern market intelligence systems are bottlenecked by stale database records and fragile, static scrapers. When targeting dynamic competitor endpoints, legacy web scrapers instantly collapse under dynamic Javascript challenges, CAPTCHAs, and aggressive Web Application Firewalls (WAFs). This information asymmetry blocks algorithmic traders and enterprise systems from capturing live market alpha.
+
+### Our Solution
+**alphaScout** solves this data accessibility gap by launching a self-correcting reasoning loop powered by the **Google Gemini API**. When a discovery target is initiated, the engine dynamically adapts its scraping parameters based on real-time feedback. 
+
+By routing outbound traffic through the **Bright Data Web Unlocker** proxy framework, alphaScout seamlessly spoofs browser signatures and rotates residential IPs to bypass anti-bot perimeters silently. The extracted metrics are compiled into a strict JSON schema and pushed instantly to the client via **Server-Sent Events (SSE)**.
 
 ---
 
-## 📄 Table of Contents
-1. [Professional Overview](#-professional-overview)
-2. [Key Capabilities](#-key-capabilities)
-3. [Tech Stack](#-tech-stack)
-4. [Architecture Diagram](#-architecture-diagram)
-5. [Quick Start Guide](#-quick-start-guide)
-6. [Core Use Cases](#-core-use-cases)
-7. [Real Example Output](#-real-example-output)
-8. [Bright Data Integration](#-bright-data-integration)
-9. [Security & Compliance](#-security--compliance)
-10. [Deployment Guide](#-deployment-guide)
-11. [Development Guide](#-development-guide)
-12. [Hackathon Track Focus](#-hackathon-track-focus)
-13. [Future Roadmap](#-future-roadmap)
+## 🛠️ Infrastructure & Tech Stack
 
----
-
-## 🎯 Professional Overview
-Traditional market analysis relies on stale database records and manual scraping scripts that easily break under modern anti-bot guardrails. **alphaScout** solves this by establishing a self-correcting **Autonomous Agentic Loop**. 
-
-The engine dynamically spawns browsing sessions, leverages residential proxy rotation to extract raw competitive data, and processes it through a strict JSON validation pipeline. Mapped directly to high-fidelity frontend visualizations, it delivers execution-ready alpha to retail users, algorithmic guardians, and asset managers instantly.
-
----
-
-## ⚡ Key Capabilities
-* **Autonomous Agentic Loop**: Self-correcting tool-calling orchestrator driven by Gemini, enabling the system to recursively discover, scrub, and validate raw text endpoints without human intervention.
-* **Live Data Streaming (SSE)**: Built-in Server-Sent Events infrastructure delivering microsecond telemetry updates directly from the scrapper pipeline to the UI dashboard.
-* **Anti-Bot Proxy Resilience**: Integrated directly with premium network unlockers to dynamically handle CAPTCHAs, Javascript challenges, and IP blacklists seamlessly.
-* **Strict JSON Structural Integrity**: Enforced schema-level compiler configurations (`application/json`) preventing LLM hallucinations and guaranteeing failure-free client-side charting.
-* **Granular Market Analytics**: Computes advanced financial telemetry including Quarter-over-Quarter (QoQ) growth indexes, market share coefficients, and pricing aggressiveness.
-
----
-
-## 🛠️ Tech Stack
-
-| Component | Technology | Purpose |
+| Layer | Component Used | Mission-Critical Operational Role |
 | :--- | :--- | :--- |
-| **Backend Framework** | Flask (Python 3.11+) | Lightweight, high-throughput web server handling active SSE connections. |
-| **AI Orchestration** | Google Gemini API | Powers the tool-calling loop, autonomous reasoning, and semantic ingestion. |
-| **Scraping Infrastructure** | BeautifulSoup4 | Normalizes messy raw HTML structures into hyper-dense token-optimized text. |
-| **Proxy Network** | Bright Data Web Unlocker | Manages IP rotation, user-agent spoofing, and automated CAPTCHA bypassing. |
-| **Data Streaming** | Server-Sent Events (SSE) | Maintains single-direction, persistent text-streams for real-time frontend processing. |
+| **AI Orchestration** | Google Gemini API | Powers the recursive tool-calling and self-correcting agentic loops. |
+| **Proxy Routing** | Bright Data Web Unlocker | Bypasses advanced CAPTCHAs and enterprise WAF architectures. |
+| **Streaming Pipeline**| Flask Server-Sent Events | Pushes sub-second, persistent data payloads without client polling. |
+| **Data Integrity** | Strict JSON Schema Guard | Validates structured data inputs to completely eliminate AI hallucinations. |
 
 ---
 
-## 📐 Architecture Diagram
+## 🤖 IBM Bob Human-AI Collaboration Report
 
-```text
-[ Client Dashboard ] 
-       ^
-       | (Server-Sent Events Stream: type 'log' | type 'chart')
-[ Flask Web Server (app.py) ]
-       ^
-       | (Recursive Function Calling Loop)
-[ Gemini Core Engine (agent.py) ]
-       |
-       +---> [ Google Search Tool ] ---> Live Web Discovery
-       |
-       +---> [ Web Scraper Tool ]   ---> [ Bright Data Proxy ] ---> [ Target Competitor Sites ]
+In strict compliance with the **IBM Bob Hackathon** guidelines, this project heavily leveraged assistive AI engineering for optimal system compilation. 
+* All advanced token-optimization algorithms, structured JSON-schema compilers, and high-throughput proxy routing parameters were refined and debugged through iterative sessions with **IBM Bob**.
+* The complete session history, containing full task execution logs, code optimization tracks, and diagnostic benchmarks, has been natively exported and stored within the repository at: `/AI_Reports/ibm_bob_report.json`.
+
+---
+
+## 🎯 Future Scalability Horizon
+
+1. **On-Chain Algorithmic Guardianship:** Hooking the data engine directly to Web3 smart contracts to execute programmatic capital preservation rules automatically.
+2. **Native Gas Abstraction:** Implementing account abstraction models to allow retail users to configure data tracking alerts with zero-gas fee complexities.
+3. **Multi-Currency Normalization:** Integrating cross-border FX transformation matrix layers within the core engine to monitor volatile global retail shifts.
