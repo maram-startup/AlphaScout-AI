@@ -1,20 +1,24 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# AlphaScout AI
 
-# Run and deploy your AI Studio app
+Real-time AI Market Intelligence Platform powered by Claude API & Bright Data
 
-This contains everything you need to run your app locally.
+## Features
+- Dynamic threat detection & risk scoring
+- Real-time competitor monitoring
+- Live financial data ingestion
+- Interactive dashboard with alerts
 
-View your app in AI Studio: https://ai.studio/apps/d0f2f9f1-a7a8-4336-84c3-0c05f0103591
+## Quick Start
+1. Clone: git clone https://github.com/maram-startup/AlphaScout-AI
+2. Install: npm install
+3. Setup .env (copy from .env.example)
+4. Run: npm run dev
 
-## Run Locally
+## Tech Stack
+- Claude API (AI reasoning)
+- Bright Data (SERP API, Web Unlocker)
+- React + TypeScript + Tailwind
+- Vite
 
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## Hackathon
+Bright Data AI x Web Data Weekend - Finance & Market Intelligence Track
