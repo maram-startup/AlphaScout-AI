@@ -1,0 +1,6 @@
+{
+  "name": "AlphaScout AI",
+  "description": "Secure autonomous Web3 & financial market intelligence agent using crawler orchestration, sentiment analyzer, and dynamic risk indices.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
